@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color:#101A29 ;
+	padding: 10px 0;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 25px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 5px 40px;
+	display: block;
+	color: white;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-image:url(../image/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	/*min-height: 500px;*/
+}
+.banner-content {
+	margin-top: 400px;
+	margin-bottom: 60px;
+	width: 40%;
+}
+.banner-content p:first-child{
+	color: white;
+    font-size: 30px;
+}
+.banner-content h1{
+	color: #0078BD;
+    font-size: 35px;
+}
+.banner-content p:nth-last-child(2){
+	color: white;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.banner-content button{
+	border: none;
+    padding: 13px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #5A5A5A;
+    margin-top: 20px;
+    background-color: white;
+    text-transform: uppercase;
+}
+.banner-content button span{
+	background-color: blue;
+	padding: 5px 8px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 15px;
+}
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121B2C;
+    padding: 50px 0;
+}
+.single {
+	/*border: 1px solid white;*/
+	width: 28%;
+	padding: 10px 20px;
+	float: left;
+	margin-left: 15px;
+	border-right: 1px solid white;
+}
+.single:last-child{
+	border-right: 0;
+}
+.title {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.icon {
+	width: 18%;
+    float: left;
+}
+.icon img{
+width: 100%;
+}
+.icon_content {
+	width: 70%;
+    float: left;
+}
+.icon_content h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.icon_content h2{
+    color: #014F7C;
+    font-family: sans-serif;
+     font-size: 26px;
+      font-weight: normal;
+}
+.content {
+
+}
+.content p{
+ color: white;
+ line-height: 1.5;
+ font-size: 17px;
+}
+.wire{
+	float: left;
+	margin-top: 37px;
+}
+.system{
+	float: left;
+	margin-top: 37px;
+	margin-left: 8px;
+}
+/*service end*/
+/* contact start */
+.contact {
+    background-color: #040811;
+    padding: 50px 0;
+}
+.info {
+    width: 26%;
+    font-size: 11px;
+   font-family: sans-serif;
+    float: left;
+    margin: auto 50px;
+}
+.info h1 {
+    color: #fffeff;
+    font-size: 25px;
+    font-weight: normal;
+}
+.info h1 span {
+    color: #0174b8;
+}
+.info p {
+    color: #fffeff;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.testimonial{
+    width: 26%;
+    font-size: 11px;
+    font-family: sans-serif;
+    float: left;
+    margin: auto 50px;
+}
+.t_tittle{
+    background-color: #0c1019;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.t_tittle h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.t_tittle h1 span {
+    color: #0174b8;
+}
+.t_tittle p {
+    color: white;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.t_address {
+}
+.t_address p {
+    color: #fffeff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.c_image {
+    overflow: hidden;
+    width: 26%;
+    margin: auto 50px;
+}
+.c_image img{
+width: 100%;
+}
+/* contact end */
+/*footer start*/
+.footer {
+    background-color: #121b2c;
+    padding: 0 0 0;
+}
+.f_text {
+    float: left;
+    width: 55%;
+    font-family: sans-serif;
+}
+.f_menu_bar {
+    margin: 0px 35px;
+}
+.f_menu_bar ul {
+}
+.f_menu_bar ul li {
+    list-style: none;
+    float: left;
+}
+.f_menu_bar ul li a {
+    font-size: 15px;
+    color: #d3d3d8;
+    /* font-weight: 400; */
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 0;
+    margin: 0 auto;
+    line-height: 48px;
+    border-right: 1px solid white;
+}
+.text {
+}
+.text p {
+    color: #d3d3d8;
+    padding: 0 50px;
+    font-size: 15px;
+}
+.f_image {
+    margin: 15px auto;
+}
+.f_image img {
+    margin-left: 170px;
+}
+/*footer end*/
